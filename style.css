@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(208, 100%, 94%);
+    color: rgb(1, 120, 124);
+    font-family:noto serif;
+}
+
+header {
+  padding: 6rem;
+  background-image: url(https://i.pinimg.com/736x/cd/ef/38/cdef38e013d8d03e4272294748cfaca4.jpg);
+  background-position: center;
+  background-size: 15%;
+  text-align: center;
+}
+
+h1 , header p {
+    color: rgb(2, 80, 80);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2{
+    color: rgb(2, 80, 80);
+    font-size: 1.2rem;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    accent-color: rgb(2, 80, 80);
+}
+
+input[type="text"] , input[type="password"], input[type="date"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid rgb(2, 80, 80);
+    outline:none;
+    border-radius:8px;
+    background-color:transparent;
+    color:  rgb(2, 80, 80);
+}
+
+input::placeholder{
+    color: rgb(1, 120, 124);
+}
+
+select{
+    cursor: pointer;
+    background-color: #CCE2FF;
+    color: rgb(2, 80, 80);
+    border-radius: 8px;
+    outline:none;
+}
+
+table{
+  width: 100%;
+  border-collapse:collapse;
+}
+th{
+    background-color: #CCE2FF;
+    color: rgb(2, 80, 80);
+    border: 2px solid rgb(2, 80, 80);
+    padding: 0.6rem;
+}
+td{
+  padding: 0.3rem;
+  text-align: center;
+  background-color: transparent;
+  color: rgb(2, 80, 80);
+  border: 2px solid rgb(2, 80, 80);
+}
+
+details{
+    background-color: transparent;
+    border: 1px solid rgb(2, 80, 80);
+    color: rgb(1, 120, 124);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+ol{
+    margin-left: 1.5;
+}
+
+ol li{
+    padding: 0.2rem ;
+}
+
+footer{background-image: url(https://i.pinimg.com/736x/cd/ef/38/cdef38e013d8d03e4272294748cfaca4.jpg);
+    padding: 0.5rem;
+    text-align: center;
+    color: #000;
+}
+.paragrafo-footer{
+    padding: 1rem;
+}
